@@ -1,5 +1,4 @@
 # Data Manifest Readme Template
-
 This readme file was generated on [YYYY-MM-DD] by [NAME]
 
 *[text within square brackets should be changed to specific information about your dataset.]*
@@ -8,60 +7,67 @@ This readme file was generated on [YYYY-MM-DD] by [NAME]
 
 *not all of the fields are required for your dataset manifest, please delete the sections that you don't fill out* 
 
-# HUMAN SUBJECT DATA
+
+## HUMAN SUBJECT DATA
 Academic Commons does not accept data that includes personally-identifiable information about human subjects.
 
 I, [enter name], affirm that the data I am depositing to Academic Commons does not include personally-identifiable information about human subjects.
 
 
-# GENERAL INFORMATION
+## GENERAL INFORMATION
 
-## Title of Dataset: 
+### Title of Dataset: 
 [Access this dataset on Acadedmic Commons](Dataset DOI link) 
 *Please contact ac@columbia.edu to receive a DOI for your dataset*
 
-*provide at least two contacts*
-## Author/Principal Investigator Information
+### Contributors
+*you should list at least the first author and the PI (or at least two individuals), but you are encouraged to list all contributors*
+*please include CRediT roles (https://credit.niso.org/) for contributors, e.g. "Conceptualization" and "https://credit.niso.org/contributor-roles/conceptualization/"*
+
+#### Contributor Contact Information
 Name: 
-ORCID:
+ORCID: 
+CRediT role: 
+CRediT URL: 
 Institution: 
 Address: 
 Email: 
 
-## Author/Associate or Co-investigator Information
+#### Contributor Contact Information
 Name: 
-ORCID:
+ORCID: 
+CRediT role: 
+CRediT URL: 
 Institution: 
 Address: 
 Email: 
 
-## Author/Alternate Contact Information
-Name: 
-ORCID:
-Institution: 
-Address: 
-Email: 
+### Date of data collection: 
+*provide single date, range, or approximate date; suggested format YYYY-MM-DD)*
 
-* Date of data collection: *provide single date, range, or approximate date; suggested format YYYY-MM-DD)*
-* Geographic location of data collection: *provide latitude, longitude, or city/region, State, Country*
-* Information about funding sources that supported the collection of the data: 
+### Geographic location of data collection: 
+*provide latitude, longitude, or city/region, State, Country*
 
+### Information about funding sources that supported the collection of the data: 
+*please include grant ID numbers if they exist*
 
-# SHARING/ACCESS INFORMATION
-You must select a license for your data. Example licenses: https://creativecommons.org/share-your-work/
+## SHARING/ACCESS INFORMATION
+*you must select a license for your data. Example licenses: https://creativecommons.org/share-your-work/. Note that neither CC-BY-ND nor CC-BY-NC-ND licenses are appropriate for data licensing.*
 
-* Licenses/restrictions placed on the data: 
-* Links to publications that cite or use the data: 
-* Links to other publicly accessible locations of the data: 
-* Links/relationships to ancillary data sets:
+* Abstract for data and/or article publishing the data: 
+* License(s)/restriction(s) placed on the data: 
+* Link(s) to publication(s) that cite or use the data:
+* Link()s to any survey used to generate this data:
+* Link(s) to other publicly accessible location(s) of the data: 
+* Link(s)/relationship(s) to ancillary data:
 * Was data derived from another source? (Please note that you cannot upload datasets that are derived from datasets for which other entitites hold the copyright, unless those datasets are licensed to allow for this reuse)
 	* If yes, list source(s): 
-* Recommended citation for this dataset: 
+* Recommended citation for this dataset: *note - it is appropriate to ask people to cite your journal article if that is your preference*
 
 
-# DATA & FILE OVERVIEW
+## DATA & FILE OVERVIEW
 
-## File List: 
+### File List: 
 *list all files (or folders, as appropriate for dataset organization) contained in the dataset, with a brief description*
 
 * Relationship between files, if important: 
@@ -72,25 +78,26 @@ You must select a license for your data. Example licenses: https://creativecommo
 	* When were the updates made?
 * Describe any missing data codes and other abbreviations used. Be as descriptive as possible.
 
-## Description of the data and file structure
-
+### Description of the data and file structure
 *This is a freeform section for you to describe how the data are structured and how a potential consumer might use them.* 
 *Be as descriptive as necessary. Keep in mind that users of your data might be new to the field and unfamiliar with common terminology, metrics, etc.*
 
 
-# METHODOLOGICAL INFORMATION
+## METHODOLOGICAL INFORMATION
+*note that all subsections in this section are optional to complete; it is appropriate to direct users to your published article for methodology*
 
-## Description of methods used for collection/generation of data: 
+### Description of methods used for collection/generation of data: 
 *include links or references to publications or other documentation containing experimental design or protocols used in data collection*
 
-## Methods for processing the data: 
+### Methods for processing the data: 
 *describe how the submitted data were generated from the raw or collected data*
 
-## Instrument- or software-specific information needed to interpret the data: 
+### Instrument- or software-specific information needed to interpret the data: 
 *include full name and version of software, and any necessary packages or libraries needed to run scripts*
 *describe any scripts, code, or notebooks (e.g., R, Python, Mathematica, MatLab) as well as the software versions (including loaded packages) that you used to run those files.* 
 *If your repository contains more than one file whose relationship to other scripts is not obvious, provide information about the workflow that you used to run those scripts and notebooks.*
 
+### Additional information:
 *include any additional methodological information needed to interpret and/or use the data, as appropriate*
 * Standards and calibration information, if appropriate: 
 * Environmental/experimental conditions: 
@@ -98,8 +105,8 @@ You must select a license for your data. Example licenses: https://creativecommo
 * People involved with sample collection, processing, analysis and/or submission: 
 
 
-# DATA-SPECIFIC INFORMATION FOR: [FILENAME]
-*if more space is needed, provide computer-readable and human-readable data dictionaries*
+## DATA-SPECIFIC INFORMATION FOR: [FILENAME]
+*it's preferable to include this information in this file; if providing a separate file, please be sure that it is machine-readable and human-readable data dictionaries*
 *repeat this section for each dataset, folder or file, as appropriate*
 
 * Number of variables: 
