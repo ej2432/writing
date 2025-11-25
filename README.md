@@ -1,119 +1,81 @@
 # Data Manifest Readme Template
-This readme file was generated on [YYYY-MM-DD] by [NAME]
-
-*[text within square brackets should be changed to specific information about your dataset.]*
-
-*help text within asterisks should be deleted before finalizing your document*
-
-*not all of the fields are required for your dataset manifest, please delete the sections that you don't fill out* 
+This readme file was generated on [YYYY-MM-DD] by [NAME].
 
 
 ## HUMAN SUBJECT DATA
 Academic Commons does not accept data that includes personally-identifiable information about human subjects.
+<br/>
+<br/>
+I, [NAME], affirm that the data I am depositing to Academic Commons does not include personally-identifiable information about human subjects.
 
-I, [enter name], affirm that the data I am depositing to Academic Commons does not include personally-identifiable information about human subjects.
-
-
+*Please fill out any of the following sections that relate to your dataset. If you have provided this information elsewhere, such as in a data dictionary or the methodology section of your published article, you may direct readers to where the information already exists, and not re-enter it here.*
+  
 ## GENERAL INFORMATION
+#### Title:
+#### DOI:
+*Please contact ac@columabi.edu to receive a DOI for your dataset.*
+#### Abstract:
+#### Funding:
+<br/>
 
-### Title of Dataset: 
-[Access this dataset on Acadedmic Commons](Dataset DOI link) 
-*Please contact ac@columbia.edu to receive a DOI for your dataset*
+#### Contributors:  
+*Please list at least two contributors; you are encouraged to list all contributors.*
+  
+##### Name: 
+##### ORCID: 
+##### [CRediT role](https://credit.niso.org/): 
+##### CRediT URL: 
+##### Email:
+##### Institution: 
+##### Address:  
+<br/>
+  
+##### Name: 
+##### ORCID: 
+##### [CRediT role](https://credit.niso.org/): 
+##### CRediT URL: 
+##### Email:
+##### Institution: 
+##### Address: 
 
-### Contributors
-*you should list at least the first author and the PI (or at least two individuals), but you are encouraged to list all contributors*
-*please include CRediT roles (https://credit.niso.org/) for contributors, e.g. "Conceptualization" and "https://credit.niso.org/contributor-roles/conceptualization/"*
-
-#### Contributor Contact Information
-Name: 
-ORCID: 
-CRediT role: 
-CRediT URL: 
-Institution: 
-Address: 
-Email: 
-
-#### Contributor Contact Information
-Name: 
-ORCID: 
-CRediT role: 
-CRediT URL: 
-Institution: 
-Address: 
-Email: 
-
-### Date of data collection: 
-*provide single date, range, or approximate date; suggested format YYYY-MM-DD)*
-
-### Geographic location of data collection: 
-*provide latitude, longitude, or city/region, State, Country*
-
-### Information about funding sources that supported the collection of the data: 
-*please include grant ID numbers if they exist*
 
 ## SHARING/ACCESS INFORMATION
-*you must select a license for your data. Example licenses: https://creativecommons.org/share-your-work/. Note that neither CC-BY-ND nor CC-BY-NC-ND licenses are appropriate for data licensing.*
-
-* Abstract for data and/or article publishing the data: 
-* License(s)/restriction(s) placed on the data: 
-* Link(s) to publication(s) that cite or use the data:
-* Link()s to any survey used to generate this data:
-* Link(s) to other publicly accessible location(s) of the data: 
-* Link(s)/relationship(s) to ancillary data:
-* Was data derived from another source? (Please note that you cannot upload datasets that are derived from datasets for which other entitites hold the copyright, unless those datasets are licensed to allow for this reuse)
-	* If yes, list source(s): 
-* Recommended citation for this dataset: *note - it is appropriate to ask people to cite your journal article if that is your preference*
+#### License(s)/restriction(s) placed on the data:
+#### Recommended citation for this dataset:
+#### Link(s) to other publicly accessible location(s) of the data:
+#### Link(s) to publication(s) that cite or use the data:
 
 
 ## DATA & FILE OVERVIEW
-
-### File List: 
-*list all files (or folders, as appropriate for dataset organization) contained in the dataset, with a brief description*
-
-* Relationship between files, if important: 
-* Additional related data collected that was not included in the current data package: 
-* Are there multiple versions of the dataset?
-	* If yes, name(s) of file(s) that have been updated within this dataset: 
-	* Why were updates made? 
-	* When were the updates made?
-* Describe any missing data codes and other abbreviations used. Be as descriptive as possible.
-
-### Description of the data and file structure
-*This is a freeform section for you to describe how the data are structured and how a potential consumer might use them.* 
-*Be as descriptive as necessary. Keep in mind that users of your data might be new to the field and unfamiliar with common terminology, metrics, etc.*
+#### Size of dataset:
+#### Description of the data and file structure, including relationships between files:
+#### File list:
+#### If this is a new version of an existing dataset, please detail how this new version is different:
 
 
 ## METHODOLOGICAL INFORMATION
-*note that all subsections in this section are optional to complete; it is appropriate to direct users to your published article for methodology*
-
-### Description of methods used for collection/generation of data: 
-*include links or references to publications or other documentation containing experimental design or protocols used in data collection*
-
-### Methods for processing the data: 
-*describe how the submitted data were generated from the raw or collected data*
-
-### Instrument- or software-specific information needed to interpret the data: 
-*include full name and version of software, and any necessary packages or libraries needed to run scripts*
-*describe any scripts, code, or notebooks (e.g., R, Python, Mathematica, MatLab) as well as the software versions (including loaded packages) that you used to run those files.* 
-*If your repository contains more than one file whose relationship to other scripts is not obvious, provide information about the workflow that you used to run those scripts and notebooks.*
-
-### Additional information:
-*include any additional methodological information needed to interpret and/or use the data, as appropriate*
-* Standards and calibration information, if appropriate: 
-* Environmental/experimental conditions: 
-* Describe any quality-assurance procedures performed on the data: 
-* People involved with sample collection, processing, analysis and/or submission: 
+### Collection
+#### Date of data collection:
+#### Geographic location of data collection:
+#### Environmental/Experimental conditions:
+#### Description of methods used for collection/generation of data:
+#### Link(s)s to any survey used to generate this data:
+#### Sources from which data was derived:
+#### Additional related data collected that was not included in the current data package:
 
 
-## DATA-SPECIFIC INFORMATION FOR: [FILENAME]
-*it's preferable to include this information in this file; if providing a separate file, please be sure that it is machine-readable and human-readable data dictionaries*
-*repeat this section for each dataset, folder or file, as appropriate*
+### Processing
+#### Methods for processing the data:
+#### Quality-assurance procedures:
+#### Instrument- or software-specific information needed to interpret the data including standards and/or calibration: 
 
-* Number of variables: 
-* Number of cases/rows: 
-* Variable List: *list variable name(s), description(s), unit(s) and value labels as appropriate for each*
-* Missing data codes: *list code/symbol and definition*
-* Specialized formats or other abbreviations used:
+## DATA-SPECIFIC INFORMATION
+#### Number, names, and definitions of variables:
+#### Number of cases/rows:
+#### Variable list:
+#### Missing data codes:
+#### Specialized formats or other abbreviations used:
 
-Attribution: This template was adapted from Cornell Data Services' template for data manifests 
-[Cornell Data Services](https://ecommons.cornell.edu/items/7dc55694-0131-499b-8df1-fa676c2589e6)
+
+## ATTRIBUTION
+This template was adapted from Cornell University Library's [Readme Template for Data](https://doi.org/10.7298/mhns-zm71.2).
